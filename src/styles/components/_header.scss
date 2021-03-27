@@ -1,0 +1,33 @@
+.header-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+
+
+
+
+  border: 1px solid black;
+  background-color: rgb(175, 177, 81);
+  font-size: 4rem;
+
+  h1{
+    font-size: 2rem;
+    margin: 1rem;
+    opacity: 0.5;
+  }
+
+  
+
+  .logo{
+    height: 8rem;
+    width: 40rem;
+    background: brown;
+
+    background: url(../../assets/icon-left-font-monochrome-black.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.7;;
+    
+  }
+}
